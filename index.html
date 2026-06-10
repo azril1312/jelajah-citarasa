@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajah Cita Rasa Kebumen - E-Commerce UMKM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Jelajah Cita Rasa Kebumen</div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#produk">Katalog Produk</a></li>
+            <li><a href="#youtube">YouTube Review</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Surga Oleh-Oleh dari Jawa Tengah</h1>
+            <p>Menyediakan Produk Kuliner & Kerajinan Khas Kebumen Asli Berkualitas.</p>
+            <a href="#produk" class="btn-primary">Lihat Produk</a>
+        </div>
+    </header>
+
+    <section id="produk" class="produk-section">
+        <h2>Katalog Produk UMKM</h2>
+        
+        <div class="filter-container">
+            <button class="btn-filter active" onclick="filterKategori('Semua')">Semua Produk</button>
+            <button class="btn-filter" onclick="filterKategori('Makanan')">Makanan</button>
+            <button class="btn-filter" onclick="filterKategori('Kerajinan')">Kerajinan</button>
+        </div>
+
+        <div class="grid-produk" id="katalog-container">
+            </div>
+    </section>
+
+    <section id="youtube" class="youtube-section">
+        <h2>Review Produk di YouTube</h2>
+        <p>Tonton ulasan jujur produk kami langsung dari channel resmi @citarasakebumen.</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Jelajah Cita Rasa Kebumen. Kelompok 6 Sains Data UPB.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
