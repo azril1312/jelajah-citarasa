@@ -7,7 +7,7 @@ const DATABASE_PRODUK = [
         nama: "Lanting Kebumen Original",
         kategori: "Makanan",
         harga: "Rp 15.000",
-        gambar: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=500",
+        gambar: "c:\\Users\\ASUS\\Downloads\\Lanting.jpeg",
         linkShopee: "https://id.shp.ee/JJ6JFDfJ",
         deskripsi: "Camilan khas Kebumen yang renyah dan gurih, terbuat dari singkong pilihan berkualitas tinggi."
     },
